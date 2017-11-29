@@ -1,0 +1,145 @@
+:root{
+	--color-fondo: #FFB300;
+}
+*{padding: 0;margin: 0;}
+.mat-menu-tooltbar-content{
+	position: fixed;
+	top: 65px;
+	text-align: center;
+	width: 44px;
+	height: 100vh;
+	box-sizing: border-box;
+}
+.example-icon {
+  padding: 0 14px;
+}
+.mat-menu-icon-top{
+	position: relative;
+	
+	top: 5px;
+	left: 15px;
+	padding-right:   45px;
+}
+.example-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.docs-angular-logo{
+	height: 26px;
+    margin: 0 4px 3px 0;
+    vertical-align: middle;
+}
+.mat-nav-fixed{
+  position: fixed;
+  z-index: 500000;
+}
+
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.mat-content-sidenav{
+  width: 300px;
+}
+.mat-border-bottom-nav{
+  border-bottom:3.5px solid #ffd740;
+}
+
+.docs-example-viewer-title{
+	background-color: #E6E4E4;
+}
+.docs-primary-header {
+	background-color: #4A148C;
+	font-family: "Roboto",sans-serif;
+	width: 96%;
+	float: right;
+	color: #FFFFFF;
+	margin-top: 65px;
+	height: 50px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.doc-content-scroll{
+	width: auto;
+	height: 100vh;
+	overflow-y: scroll;
+}
+.doc-content{
+	float: right;
+	width: 97.27%;
+	height: auto;	
+}
+
+.doc-wrap{
+	width: 95%;
+	height: 100vh;
+	margin: 15px 0 15px 40px;
+	
+}
+.doc-footer{
+	background-color: #4A148C;
+	overflow: hidden;
+	float: right;
+	width: 97.27%;
+	height: 325px; 
+}
+.doc-wrap-content-footer{
+	width: 100%;
+	height: 250px;
+}
+
+.doc-wrap-footer{
+	width: 95%;
+	height: 165px;
+	margin: 15px 0 15px 40px;	
+	overflow: hidden;
+}
+.doc-content-resource{
+	width: 40%;
+	height: 125px;
+	float: left;	
+	background-color: #ffd740;
+}
+.doc-content-comunity{
+	width: 26%;
+	height: 125px;
+	float: right;
+	margin-left: 40px;	
+	background-color: #ffd740;
+}
+.doc-content-supporty{
+	width: 26%;
+	height: 125px;
+	float: right;
+	margin-left: 40px;	
+	background-color: #ffd740;
+
+}
+.doc-copyring-footer{
+	width: 100%;
+	margin-bottom: 0;
+	height: 50px;	
+	background-color: #834FC3;
+	padding-left: 25px;
+	padding-top: 10px;
+	font-family: "Roboto",sans-serif;
+	color: #FFFFFF;
+}
+.mat-icon-chevron_right{
+	position: relative;
+	top: 5px;
+	left: 8px;
+}
+.mat-icon-top{
+	position: relative;
+	left: 15px;
+	top: 5px;
+}

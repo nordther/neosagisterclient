@@ -1,0 +1,32 @@
+<mat-sidenav-container class="example-container" (backdropClick)="close('backdrop')" >
+
+	  <mat-sidenav #sidenav (keydown.escape)="close('escape')" disableClose class="mat-content-sidenav mat-elevation-z6 mat-primary">
+	    <p><button mat-button (click)="close('toggle button')">Toggle</button></p>
+	  </mat-sidenav>
+
+	  <mat-sidenav-content>    
+		    <mat-toolbar color="primary" class="mat-elevation-z6 mat-border-bottom-nav mat-nav-fixed">
+				<mat-toolbar-row>
+					<span>
+						<button mat-icon-button (click)="sidenav.open()">
+							<mat-icon aria-label="Example icon-button with a heart icon">menu</mat-icon>
+						</button>
+						<button mat-button routerLink="/home">
+							<span class="mat-button-wrapper">
+							<img src="assets/faviconNav.ico" width="26" height="26">				
+							</span>
+							<span>{{title_navbar}}</span>
+						</button>			
+					</span>
+					<span class="example-spacer"></span>
+					<button mat-button routerLink="/about">About</button>
+					<button mat-button routerLink="/services">Service</button>
+					<button mat-button routerLink="/contact">Contact</button>
+				</mat-toolbar-row>
+			</mat-toolbar>
+			<router-outlet></router-outlet>
+	 </mat-sidenav-content>
+
+
+</mat-sidenav-container>
+
